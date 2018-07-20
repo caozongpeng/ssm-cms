@@ -48,15 +48,15 @@ public class ArticleController {
     @RequestMapping(value = "/detail/{id}/{category}")
     public String detail(@PathVariable("id") Long id, Model model){
         Article article = articleService.getArticleById(id);
-//        System.out.println(article.getContent());
+        System.out.println(article.getContent());
         Markdown markdown = new Markdown();
         try {
             StringWriter out = new StringWriter();
             markdown.transform(new StringReader(article.getContent()),out);
             out.flush();
             article.setContent(out.toString());
-//            System.out.println("------------------");
-//            System.out.println(article.getContent());
+            System.out.println("------------------");
+            System.out.println(article.getContent());
         } catch (ParseException e) {
             e.printStackTrace();
         }
@@ -142,7 +142,6 @@ public class ArticleController {
         return "views/index";
     }
 
-
-
+    
 
 }
