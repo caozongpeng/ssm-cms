@@ -10,7 +10,7 @@
 
 * 后台登录
 
-![image](http://pcschpyz4.bkt.clouddn.com/login.jpg)
+![image](http://pcschpyz4.bkt.clouddn.com/login.png)
 
 * 后台首页
 
