@@ -5,14 +5,4 @@
 
 #### 部分界面展示
 
-![index](C:\Users\Administrator\Desktop\index.jpg)
-
-
-![login](C:\Users\Administrator\Desktop\login.png)
-
-
-
-![admin](C:\Users\Administrator\Desktop\admin.png)
-
-![write](C:\Users\Administrator\Desktop\write.png)
 
